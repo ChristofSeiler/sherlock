@@ -26,6 +26,7 @@ To check where you are, you can use the command `pwd` to print out the current d
 
 ```bash
 git clone https://github.com/ChristofSeiler/sherlock.git
+cd sherlock
 ```
 
 Pro tip: If you don't want to retype your password everytime, you can use a [credential helper](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux).
@@ -47,7 +48,6 @@ Ok, now we are ready to submit our first job to the cluster. All the information
 Command to submit a job:
 
 ```bash
-cd sherlock
 sbatch submit.sbatch
 ```
 
