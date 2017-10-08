@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=project_name
+#SBATCH --job-name=your_project_name
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=8GB
