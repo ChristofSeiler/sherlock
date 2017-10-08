@@ -68,5 +68,5 @@ more slurm-*.out
 You can download your result to your laptop by switching to you other terminal and typing:
 
 ```bash
-scp /scratch/users/your_username/sherlock/slurm-*.out .
+scp login.sherlock.stanford.edu:/scratch/users/your_username/sherlock/slurm-*.out .
 ```
