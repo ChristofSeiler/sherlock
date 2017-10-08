@@ -32,10 +32,10 @@ Pro tip: If you dont' want to retype your password everytime, you can use a [cre
 
 ## 3: Upload Your Data
 
-To upload your own data, e.g. sample info tables or `fcs` files. You can use the following the `scp` command. Open a new terminal go to the folder where you file, say `sample_info.csv`, is and type:
+To upload your own data, e.g. sample info tables or `fcs` files. You can use the following the `scp` command. Open a new terminal go to the folder where you local file is located and type:
 
 ```bash
-scp sample_info.csv /scratch/users/your_username/.
+scp you_local_file /scratch/users/your_username/.
 ```
 
 ## 4: Run Your Script
