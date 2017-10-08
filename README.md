@@ -54,4 +54,16 @@ To check the status of your job:
 squeue -u your_username
 ```
 
+When the job is completed you will see the result in a text file with extension `.out`. To open it type:
+
+```bash
+more slurm-*.out
+```
+
 ## 5: Download Your Results
+
+You can download your result to your laptop by switching to you other terminal and typing:
+
+```bash
+scp /scratch/users/your_username/sherlock/slurm-*.out .
+```
