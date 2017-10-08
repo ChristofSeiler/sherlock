@@ -12,7 +12,6 @@ if [[ "$SHERLOCK" == "1" ]]; then
 	module load R/3.3.0
 elif [[ "$SHERLOCK" == "2" ]]; then
 	echo "Running on Sherlock 2.0"
-	module load fftw/3.3.6
 	module load R
 else
 	echo "Uh-oh, not sure where we are..."
