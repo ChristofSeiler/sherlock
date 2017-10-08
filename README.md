@@ -47,6 +47,7 @@ Ok, now we are ready to submit our first job to the cluster. All the information
 Command to submit a job:
 
 ```bash
+cd sherlock
 sbatch submit.sbatch
 ```
 
