@@ -18,4 +18,4 @@ else
 	exit 1
 fi
 
-R -e "print(1+1)"
+R -e "Sys.sleep(60); print(1+1)"
