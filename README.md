@@ -4,11 +4,11 @@ This is a practical tutorial on how to use Sherlock in your research. Sherlock i
 
 Let's go through the most important steps.
 
-## 1: Request Acccount
+## 1. Request Acccount
 
 To get access to the cluster, you need to request an account [here](http://www.sherlock.stanford.edu/docs/getting-started/prerequisites/#how-to-request-an-account).
 
-## 2: Upload Your Script
+## 2. Upload Your Script
 
 The best way to upload your script to Sherlock is through GitHub. To start install the [GitHub desktop client](https://desktop.github.com/) on your laptop. Then clone this project with `File -> Clone Repository...`. Now open the file called `submit.sbatch` with your favorite text editor, e.g [Atom](https://atom.io/) is a good one. This code is now on your laptop, but how can you get it onto the cluster? We can use GitHub for that, but first we need to login to Sherlock. Open a Terminal windows and type:
 
@@ -30,7 +30,7 @@ git clone https://github.com/ChristofSeiler/sherlock.git
 
 Pro tip: If you don't want to retype your password everytime, you can use a [credential helper](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux).
 
-## 3: Upload Your Data
+## 3. Upload Your Data
 
 To upload your own data, e.g. sample info tables or `fcs` files. You can use the following the `scp` command. Open a new terminal go to the folder where you local file is located and type:
 
@@ -38,7 +38,7 @@ To upload your own data, e.g. sample info tables or `fcs` files. You can use the
 scp you_local_file /scratch/users/your_username/.
 ```
 
-## 4: Run Your Script
+## 4. Run Your Script
 
 Ok, now we are ready to submit our first job to the cluster. All the information is in the file `submit.sbatch`. It will ask the cluster for a certain amount of memory, time, and number of processors. Then it will get into the scheduler queue and we will have to wait until it's our turn. Depending on how much computing resources we need this will take more or less time. But usually on the new Sherlock 2.0 cluster it's pretty fast. Try it out by submit our test script that add `1+1`.
 
@@ -60,7 +60,7 @@ When the job is completed you will see the result in a text file with extension 
 more slurm-*.out
 ```
 
-## 5: Download Your Results
+## 5. Download Your Results
 
 You can download your result to your laptop by switching to you other terminal and typing:
 
