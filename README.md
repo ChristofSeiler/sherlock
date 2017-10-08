@@ -28,7 +28,7 @@ To check where you are, you can use the command `pwd` to print out the current d
 git clone https://github.com/ChristofSeiler/sherlock.git
 ```
 
-Pro tip: If you dont' want to retype your password everytime, you can use a [SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+Pro tip: If you dont' want to retype your password everytime, you can use a [credential helper](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux).
 
 ## 3: Upload Your Data
 
