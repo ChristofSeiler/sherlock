@@ -38,6 +38,8 @@ To upload your own data, e.g. sample info tables or `fcs` files. You can use the
 scp you_local_file /scratch/users/your_username/.
 ```
 
+In this tutorial, we don't have any data to uplaod.
+
 ## 4. Run Your Script
 
 Ok, now we are ready to submit our first job to the cluster. All the information is in the file `submit.sbatch`. It will ask the cluster for a certain amount of memory, time, and number of processors. Then it will get into the scheduler queue and we will have to wait until it's our turn. Depending on how much computing resources we need this will take more or less time. But usually on the new Sherlock 2.0 cluster it's pretty fast. Try it out by submit our test script that add `1+1`.
