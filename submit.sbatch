@@ -18,4 +18,4 @@ else
 	exit 1
 fi
 
-R -e "print('hello world')"
+R -e "print(1+1)"
