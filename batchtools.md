@@ -44,4 +44,4 @@ getErrorMessages()
 res_list = reduceResultsList(missing.val = NULL, reg = reg)
 ```
 
-Check out the `batchtools` manual for more background and details on many other useful functions.
+Check out the `batchtools` [manual](https://mllg.github.io/batchtools/) for more background and details on many other useful functions.
