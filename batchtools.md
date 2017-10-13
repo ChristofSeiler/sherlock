@@ -41,7 +41,7 @@ waitForJobs(reg = reg,sleep = 300)
 getStatus()
 findErrors()
 getErrorMessages()
-# by setting missing.val to NULL, we impute failed jobs by NULL
+# by setting missing.val to NULL, we impute failed jobs with NULL
 res_list = reduceResultsList(missing.val = NULL, reg = reg)
 ```
 
