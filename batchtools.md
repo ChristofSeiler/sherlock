@@ -1,4 +1,4 @@
-# Use R Package batchtools on sherlock
+# Use R Package batchtools on Sherlock
 
 To use `batchtools` on sherlock, we need to create two files: 
 
