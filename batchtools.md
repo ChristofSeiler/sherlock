@@ -2,7 +2,7 @@
 
 To use `batchtools` on sherlock, we need to create two files: 
 
-* a template file [slurm_batchtools.tmpl](https://github.com/ChristofSeiler/sherlock/slurm_batchtools.tmpl)` that contains information about resource allocation
+* a template file [slurm_batchtools.tmpl](https://github.com/ChristofSeiler/sherlock/slurm_batchtools.tmpl) that contains information about resource allocation
 * a cluster function file `batchtools.conf.R` that contains information about where the `slurm_batchtools.tmpl`
 
 The easiest way is to copy both files in the same directory with the `R` script. The seoncd file is only necessary if you plan to use the function `loadRegistry`. This function allows us to get the status and possible error message of currently running jobs by starting a new `R` session. Especially for longer jobs this becomes very importants, so I highly recommend it.
