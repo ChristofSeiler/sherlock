@@ -37,7 +37,7 @@ submitJobs(resources = list(ncpus = 1, # one core
                             walltime = 60, # 60 minutes
                             partition = "hns,normal"))
 # sleep for 300 secs because sometimes cluster is slow in responding
-waitForJobs(reg = reg,sleep = 300)
+waitForJobs(sleep = 300,reg = reg)
 getStatus()
 findErrors()
 getErrorMessages()
