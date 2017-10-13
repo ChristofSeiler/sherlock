@@ -15,7 +15,7 @@ run_simulation = function(seed, arg1, arg2) {
 }
 ```
 
-Here is the code that we need to include in an `R` script to use `batchtools`:
+Then, here is the code that we need to include in an `R` script to use `batchtools`:
   
 ```r
 slurm_settings = "slurm_batchtools.tmpl"
