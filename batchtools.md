@@ -31,7 +31,7 @@ batchMap(fun = run_simulation,
          seed = 1:10,
          more.args = list(arg1 = arg1,
                           arg2 = arg2),
-           reg = reg)
+         reg = reg)
 submitJobs(resources = list(ncpus = 1, # one core
                             memory = 8000, # 8 GB of memory
                             walltime = 60, # 60 minutes
