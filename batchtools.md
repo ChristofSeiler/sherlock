@@ -18,6 +18,7 @@ run_simulation = function(seed, arg1, arg2) {
 Then, here is the code that we need to include in an `R` script to use `batchtools`:
   
 ```r
+library("batchtools")
 slurm_settings = "slurm_batchtools.tmpl"
 current_time = Sys.time() %>%
   str_replace_all(":","") %>%
