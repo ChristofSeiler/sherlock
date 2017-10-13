@@ -7,7 +7,7 @@ To use `batchtools` on sherlock, we need to create two files:
 
 The easiest way is to copy both files in the same directory with the `R` script. The second file is only necessary if you plan to use the function `loadRegistry`. This function allows us to get the status and possible error message of currently running jobs by starting a new `R` session. Especially for longer jobs this becomes very importants, so I highly recommend it.
 
-Let's assume we want to run the following function on sherlock (we will need functions of the `magrittr` pacakge):
+Let's assume we want to run the following function on sherlock, and within this function we would like to use functions from the `magrittr` pacakge):
 
 ```r
 run_simulation = function(seed, arg1, arg2) {
