@@ -11,7 +11,7 @@ Let's assume we want to run the following function on sherlock, and within this 
 
 ```r
 run_simulation = function(seed, arg1, arg2) {
-  ...
+  # some code here
 }
 ```
 
