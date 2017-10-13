@@ -70,3 +70,7 @@ You can download your result to your laptop by switching to you other terminal a
 ```bash
 scp login.sherlock.stanford.edu:/scratch/users/your_username/sherlock/slurm-*.out .
 ```
+
+## Advanced Stuff
+
+If you want to use the cluster wihtin an `R` script read [this](batchtools.md).
