@@ -2,7 +2,9 @@
 
 This is a practical tutorial on how to use Sherlock in your research. Sherlock is a computing cluster open to researchers at Stanford University. It's based on the `slurm` scheduler environment that handles all the computing resources for you. The only thing we need to do is to submit computing jobs to the cluster and the rest will be handled by `slurm`. You can submit hundrets or even thousands of jobs to the cluster. This means that you can compute things on the cluster in hours that would take weeks to compute on a laptop.
 
-Let's go through the most important steps. An alternative way using a GUI is described [here](http://sherlock.stanford.edu/mediawiki/index.php/DTN) or [here](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#globus).
+## Note: Graphical User Interface
+
+For steps 2, 3, and 5 you can also use a webinterace called Globus. Instruction are [here](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#globus).
 
 ## 1. Request Acccount
 
