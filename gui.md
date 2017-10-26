@@ -1,6 +1,6 @@
 # Using Graphical User Interface
 
-**THIS DOESN'T CURRENTLY WORK BECAUSE OF THE TWO-STEP AUTHENTICATION.**
+**THIS DOESN'T CURRENTLY WORK BECAUSE OF THE TWO-STEP AUTHENTICATION SYSTEM.**
 
 You can upload and download files to and from sherlock using the software Cyberduck.
 
