@@ -10,4 +10,4 @@ You can upload and download files to and from sherlock using the software Cyberd
     * Server: `login.sherlock.stanford.edu`
     * Username: Your Stanford SUNet ID
     * Password: Your Stanford SUNet Password
-3. Now you can drag- and drop files between your local computer and sherlock.
+3. Now you can drag and drop files between your local computer and sherlock.
