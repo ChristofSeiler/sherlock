@@ -1,7 +1,5 @@
 # Using Graphical User Interface
 
-Try http://sherlock.stanford.edu/mediawiki/index.php/DTN.
-
 The following instructions currently don't work because of the two-step authentification system.
 
 You can upload and download files to and from sherlock using the software Cyberduck.
