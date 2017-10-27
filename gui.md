@@ -1,13 +1,11 @@
 # Using Graphical User Interface
 
-The following instructions currently don't work because of the two-step authentification system.
+You can upload and download files to and from sherlock using the software fetch.
 
-You can upload and download files to and from sherlock using the software Cyberduck.
-
-1. Go to their website and download Cyberduck: https://cyberduck.io. Don't go through the Apple Store you will have to pay, there is a link to manually download it.
-2. After installing and opening Cyberduck, click on `Open Connection` and fill out the form:
-    * Select `SFTP (SSH File Transfer Protocol)`
-    * Server: `login.sherlock.stanford.edu`
-    * Username: Your Stanford SUNet ID
-    * Password: Your Stanford SUNet Password
-3. Now you can drag and drop files between your local computer and sherlock.
+1. Download [here](https://uit.stanford.edu/service/ess/mac/docs/fetch) and istall fetch on your laptop
+2. Connect:
+   * Hostname: sherlock.stanford.edu
+   * Username: Your Stanford SUNet ID
+   * Connect using: SFTP
+   * Initial folder: /scratch/users/[Your Stanford SUNet ID]/Biogen/
+3. Now you can drag and drop files between your local computer and sherlock
