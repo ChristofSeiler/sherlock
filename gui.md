@@ -1,4 +1,4 @@
-# Using Graphical User Interface
+# Using a Graphical User Interface
 
 You can upload and download files to and from sherlock using the software fetch.
 
