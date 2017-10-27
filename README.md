@@ -82,4 +82,17 @@ scp login.sherlock.stanford.edu:/scratch/users/your_username/sherlock/slurm-*.ou
 
 ## Advanced Stuff
 
+To avoid retyping your login thousand times do this on your laptop:
+
+```bash
+mkdir -p ~/.ssh
+echo "Host sherlock sherlock.stanford.edu sherlock* sherlock*.stanford.edu
+  GSSAPIDelegateCredentials yes
+  GSSAPIAuthentication yes
+  Host login.sherlock.stanford.edu
+  ControlMaster auto
+  ControlPersist yes
+  ControlPath ~/.ssh/%l%r@%h:%p" >> ~/.ssh/config
+```
+
 If you want to use the cluster wihtin an `R` script read [this](batchtools.md).
