@@ -14,3 +14,10 @@ cd $HOME
 touch .bash_profile
 echo "export PATH=$HOME/rstudio-server-rhel-1.1.383-x86_64/usr/lib/rstudio-server/bin/pandoc:$PATH" >> .bash_profile
 ```
+
+Also we need to install some R package.
+
+```bash
+module load R
+R -e install.packages("rmarkdown")
+```
