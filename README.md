@@ -4,7 +4,12 @@ This is a practical tutorial on how to use Sherlock in your research. Sherlock i
 
 ## Note: Graphical User Interface
 
-For steps 2, 3, and 5 you can also use a webinterace called Globus. Instruction are [here](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#globus).
+For steps 2, 3, and 5 you can also use a webinterace called fetch or Globus.
+
+Instructions for Globus: [here](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#globus)
+Instructions for fetch: [here](gui.md)
+
+When transfering files using Globus `enable encrypt` transfer in `Transfer Settings`.
 
 ## 1. Request Acccount
 
