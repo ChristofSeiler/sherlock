@@ -2,8 +2,8 @@
 
 You can upload and download files to and from sherlock using the software fetch.
 
-1. [Download](https://uit.stanford.edu/service/ess/mac/docs/fetch) and istall fetch on your laptop
-2. [Donload](https://uit.stanford.edu/software/kerberos) and install kerberos
+1. Download and istall [fetch](https://uit.stanford.edu/service/ess/mac/docs/fetch) on your laptop
+2. Download and install [kerberos](https://uit.stanford.edu/software/kerberos) on your laptop
 3. Start kerberos and login with your Stanford SUNet credentials
 4. Fill out connect details:
    * Hostname: sherlock.stanford.edu
