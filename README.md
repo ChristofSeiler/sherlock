@@ -80,7 +80,7 @@ mkdir -p ~/.ssh
 echo "Host sherlock sherlock.stanford.edu sherlock* sherlock*.stanford.edu
   GSSAPIDelegateCredentials yes
   GSSAPIAuthentication yes
-  Host login.sherlock.stanford.edu
+Host login.sherlock.stanford.edu
   ControlMaster auto
   ControlPersist yes
   ControlPath ~/.ssh/%l%r@%h:%p" >> ~/.ssh/config
