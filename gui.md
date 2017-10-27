@@ -3,7 +3,7 @@
 You can upload and download files to and from sherlock using the software fetch.
 
 1. Download [here](https://uit.stanford.edu/service/ess/mac/docs/fetch) and istall fetch on your laptop
-2. Connect:
+2. Fill out connect details:
    * Hostname: sherlock.stanford.edu
    * Username: Your Stanford SUNet ID
    * Connect using: SFTP
