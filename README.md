@@ -2,15 +2,6 @@
 
 This is a practical tutorial on how to use Sherlock in your research. Sherlock is a computing cluster open to researchers at Stanford University. It's based on the `slurm` scheduler environment that handles all the computing resources for you. The only thing we need to do is to submit computing jobs to the cluster and the rest will be handled by `slurm`. You can submit hundrets or even thousands of jobs to the cluster. This means that you can compute things on the cluster in hours that would take weeks to compute on a laptop.
 
-## Using a Graphical User Interface
-
-For steps 2, 3, and 5 you can also use a webinterace called fetch or Globus.
-
-* Instructions for fetch: [here](gui.md)
-* Instructions for Globus: [here](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#globus)
-
-When transfering files using Globus `enable encrypt` transfer in `Transfer Settings`.
-
 ## 1. Request Acccount
 
 To get access to the cluster, you need to request an account [here](http://www.sherlock.stanford.edu/docs/getting-started/prerequisites/#how-to-request-an-account).
@@ -80,7 +71,7 @@ You can download your result to your laptop by switching to you other terminal a
 scp login.sherlock.stanford.edu:/scratch/users/your_username/sherlock/slurm-*.out .
 ```
 
-## Advanced Stuff
+## Cache Login Credentials
 
 To avoid retyping your login thousand times do this on your laptop:
 
@@ -94,5 +85,16 @@ echo "Host sherlock sherlock.stanford.edu sherlock* sherlock*.stanford.edu
   ControlPersist yes
   ControlPath ~/.ssh/%l%r@%h:%p" >> ~/.ssh/config
 ```
+
+## Using a Graphical User Interface
+
+For steps 2, 3, and 5 you can also use a webinterace called fetch or Globus.
+
+* Instructions for fetch: [here](gui.md)
+* Instructions for Globus: [here](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#globus)
+
+When transfering files using Globus `enable encrypt` transfer in `Transfer Settings`.
+
+## Advanced Stuff
 
 If you want to use the cluster wihtin an `R` script read [this](batchtools.md).
