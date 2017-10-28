@@ -48,7 +48,7 @@ Ok, now we are ready to submit our first job to the cluster. All the information
 Command to submit a job:
 
 ```bash
-sbatch submit.sbatch
+sbatch submit.sbatch your_rmd_filename
 ```
 
 To check the status of your job:
