@@ -51,6 +51,12 @@ Command to submit a job:
 sbatch submit.sbatch your_rmd_filename
 ```
 
+You can also get an email notification from the cluster when the job is done or failed like this:
+
+```bash
+sbatch --mail-user=your_email_address submit.sbatch your_rmd_filename
+```
+
 To check the status of your job:
 
 ```bash
