@@ -7,7 +7,7 @@ It is also possible to do everyting without leaving Rstudio. We will mount the r
 3. Create local copy of your scratch file system:
 
 ```bash
-mkdir -p /scratch/users/[your_username]
+sudo mkdir -p /scratch/users/[your_username]
 sudo chown -R [your_username]: /scratch
 sudo chmod -R u+w /scratch
 ```
