@@ -25,3 +25,9 @@ reg = makeRegistry(file.dir = "registry")
 reg$cluster.functions = makeClusterFunctionsSlurm(slurm_settings,
                                                   nodename = "login.sherlock.stanford.edu")
 ```
+
+6. When you are done, you can unmount your folder:
+
+```bash
+umount /scratch/users/[your_username]
+```
