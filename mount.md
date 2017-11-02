@@ -8,7 +8,8 @@ It is also possible to do everyting without leaving Rstudio. We will mount the r
 
 ```bash
 mkdir -p /scratch/users/[your_username]
-chmod 755 /scratch/users/[your_username]
+sudo chown -R  [your_username]: /scratch
+sudo chmod -R u+w /scratch
 ```
 
 4. Mount your scratch folder:
