@@ -101,6 +101,10 @@ For steps 2, 3, and 5 you can also use a webinterace called fetch or Globus.
 
 When transfering files using Globus `enable encrypt` transfer in `Transfer Settings`.
 
+# Everything with RStudio
+
+See instructions [here](mount.md).
+
 ## Advanced Stuff
 
 If you want to use the cluster wihtin an `R` script read [this](batchtools.md).
