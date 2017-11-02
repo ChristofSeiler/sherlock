@@ -1,6 +1,6 @@
 ## Everything within RStudio
 
-It is also possible to do everyting without leaving Rstudio. We will mount the remove folder on sherlock on our laptop using `sshfs`. 
+It is also possible to do everyting without leaving Rstudio. We will mount the remote folder on sherlock to your laptop using `sshfs`. 
 
 1. Install `sshfs` according to [this](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#sshfs)
 2. Install `GSSAPI` according to [this](http://www.sherlock.stanford.edu/docs/advanced-topics/connection/#gssapi)
