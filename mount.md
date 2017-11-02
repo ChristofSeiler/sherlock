@@ -4,7 +4,7 @@ It is also possible to do everyting without leaving Rstudio. We will mount the r
 
 1. Install `sshfs` according to [this](http://www.sherlock.stanford.edu/docs/user-guide/storage/data-transfer/#sshfs)
 2. Install `GSSAPI` according to [this](http://www.sherlock.stanford.edu/docs/advanced-topics/connection/#gssapi)
-3. Create local copy of scratch file system:
+3. Create local copy of your scratch file system:
 
 ```bash
 mkdir -p /scratch/users/[your_username]
