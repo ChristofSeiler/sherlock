@@ -101,7 +101,7 @@ For steps 2, 3, and 5 you can also use a webinterace called fetch or Globus.
 
 When transfering files using Globus `enable encrypt` transfer in `Transfer Settings`.
 
-# Everything with RStudio
+## Everything with RStudio
 
 See instructions [here](mount.md).
 
