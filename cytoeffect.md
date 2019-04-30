@@ -75,5 +75,5 @@ R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
 
 1. Go back to the [welcome page](https://login.sherlock.stanford.edu)
 2. Open [File manager](https://login.sherlock.stanford.edu/pun/sys/files/fs/home/users/cseiler)
-3. `Go to...` your directory where you uploaded your data, e.g. `/scratch/users/YOUR_USERNAME/YOUR_PROJECT`
+3. `Go to...` your directory where you uploaded your data, e.g. `/scratch/users/cseiler/blish_cytoeffect_example/`
 4. Select output report `Reanalysis_Aghaeepour2017_Poisson.html` and click `Download` button
