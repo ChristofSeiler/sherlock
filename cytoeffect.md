@@ -4,7 +4,7 @@ This is a practical tutorial on how to run `cytoeffect` on Sherlock.
 
 ## Login
 
-1. To get access to the cluster, you need to request an account [here](http://www.sherlock.stanford.edu/docs/getting-started/prerequisites/#how-to-request-an-account).
+1. To get access to the cluster, you need to request an account [here](http://www.sherlock.stanford.edu/docs/getting-started/prerequisites/#how-to-request-an-account)
 2. Open a web browser and go to: https://login.sherlock.stanford.edu
 3. Login with your Stanford credential
 
