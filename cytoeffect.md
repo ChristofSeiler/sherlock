@@ -11,7 +11,7 @@ This is a practical tutorial on how to run `cytoeffect` on Sherlock.
 ## Upload Data
 
 1. After login you will see a welcome page
-2. To upload your data click the `File manager` link on the welcome page
+2. To upload your data click the [File manager](https://login.sherlock.stanford.edu/pun/sys/files/fs/home/users/cseiler) link on the welcome page
 3. Change directory:
     * Click on `Go To...` button
     * Type (replace `YOUR_USERNAME` with your user name): `/scratch/users/YOUR_USERNAME/`
@@ -26,14 +26,15 @@ This is a practical tutorial on how to run `cytoeffect` on Sherlock.
 1. Go back to the [welcome page](https://login.sherlock.stanford.edu)
 2. Click [create and submit jobs](https://login.sherlock.stanford.edu/pun/sys/dashboard/apps/show/myjobs) link
 3. Click `New Job` dropdown and select `From Default Template`
-4. Click `Open Editor` button and copy the following submit scripts
+4. Click `Open Editor` button and copy the one of the following two submit scripts
     * Change `cd /scratch/users/cseiler/blish_cytoeffect_example/` to where you uploaded your data
-    * Choose this for short jobs (up to 12 hours):
+    * Choose first for short jobs (up to 12 hours)
+    * Choose second for long jobs (up to 7 days)
 
 ```bash
 #!/bin/bash
 
-#SBATCH --job-name=cytoeffect
+#SBATCH --job-name=cytoeffect_short
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
 #SBATCH --mem-per-cpu=4GB
@@ -46,12 +47,12 @@ cd /scratch/users/cseiler/blish_cytoeffect_example/
 R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
 ```
 
-    * Choose this for long jobs (up to 7 days):
+or
 
 ```bash
 #!/bin/bash
 
-#SBATCH --job-name=cytoeffect
+#SBATCH --job-name=cytoeffect_long
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
 #SBATCH --mem-per-cpu=16GB
@@ -73,6 +74,6 @@ R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
 ## Download Results
 
 1. Go back to the [welcome page](https://login.sherlock.stanford.edu)
-2. To monitor your job click [Job manager](https://login.sherlock.stanford.edu/pun/sys/activejobs)
-3. Open `Completed` jobs and click `Open In File Manager` button
+2. Open [File manager](https://login.sherlock.stanford.edu/pun/sys/files/fs/home/users/cseiler)
+3. `Go to...` your directory where you uploaded your data, e.g. `/scratch/users/YOUR_USERNAME/YOUR_PROJECT`
 4. Select output report `Reanalysis_Aghaeepour2017_Poisson.html` and click `Download` button
